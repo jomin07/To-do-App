@@ -1,0 +1,76 @@
+body{
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.TodoWrapper h1{
+  color: white;
+}
+
+.todo-input{
+  color: white;
+  border: 1px solid #8758ff;
+  background: none;
+  outline: none;
+  padding: 7px;
+  margin: 10px 20px;
+  width: 300 px;
+}
+
+.todo-btn{
+  color: white;
+  font-weight: bold;
+  background: #8758ff;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Todo{
+  color: white;
+  font-weight: bold;
+  background: #8758ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 7px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.todo-icon .edit-icon,.delete-icon{
+  margin-right: 10px;
+  cursor: pointer;
+}
+
